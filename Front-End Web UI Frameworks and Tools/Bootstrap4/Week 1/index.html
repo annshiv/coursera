@@ -2,21 +2,28 @@
 <html lang="en">
 
 <head>
-    <title>Ristorante Con Fusion</title>
-
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
+    
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
+
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap Social -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" integrity="sha512-f8mUMCRNrJxPBDzPJx3n+Y5TC5xp6SmStstEfgsDXZJTcxBakoB5hvPLhAfJKa9rCvH+n3xpJ2vQByxLk4WP2g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Ristorante Con Fusion</title>
 </head>
 
 <body>
-
+    <!-- Purple Header -->
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -30,6 +37,8 @@
         </div>
     </header>
 
+
+    <!-- Page Content -->
     <div class="container">
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3 flex-last">
@@ -37,7 +46,7 @@
             </div>
             <div class="col-sm col-md flex-first">
                 <h2>Uthappizza</h2>
-                <p class="hidden-xs-down">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                <p class=" d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
             </div>
         </div>
 
@@ -48,7 +57,7 @@
             </div>
             <div class="col-sm col-md">
                 <h2>Weekend Grand Buffet</h2>
-                <p class="hidden-xs-down">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <p class=" d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
             </div>
         </div>
 
@@ -59,11 +68,12 @@
             <div class="col-sm col-md flex-first">
                 <h2>Alberto Somayya</h2>
                 <h4>Executive Chef</h4>
-                <p class="hidden-xs-down">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                <p class=" d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
             </div>
         </div>
     </div>
 
+    <!-- Purple Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">             
@@ -76,17 +86,19 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-sm-5">
+                <div class="col-6 col-sm-5"> 
                     <h5>Our Address</h5>
                     <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+                      121, Clear Water Bay Road<br>
+                      Clear Water Bay, Kowloon<br>
+                      HONG KONG<br>
+                      Tel.: +852 1234 5678<br>
+                      Fax: +852 8765 4321<br>
+                      Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+                   </address>
                 </div>
+
+                <!-- Contact Links -->
                 <div class="col col-sm-4 align-self-center">
                     <div style="text-align:center">
                         <a href="http://google.com/+">Google+</a>
@@ -100,16 +112,18 @@
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
-                    <p>© Copyright 2015 Ristorante Con Fusion</p>
+                    <p>© Copyright 2021 Ristorante Con Fusion</p>
                 </div>
            </div>
         </div>
     </footer>
-    
+
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- Bootsrap beta 4 replaced Tether with Popper -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
