@@ -1,0 +1,25 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is the Git and Node basic learning project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "compile:sass": "node-sass --recursive --watch <sass directory> --output <css directory>",
+    "scss": "node-sass -o css/ css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TruaShamu/Coursera-Bootstrap-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/TruaShamu/Coursera-Bootstrap-4/issues",
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {}
+}
